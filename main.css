@@ -1,0 +1,33 @@
+body {
+    background-color: #242424;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.score-box {
+    color: white;
+    text-align: center;
+}
+
+.results {
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.button__container {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 5px 10px;
+}
